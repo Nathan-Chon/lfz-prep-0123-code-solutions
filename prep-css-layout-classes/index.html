@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>
+    How to Train Your Dragon Series
+  </h1>
+  <div class="container" >
+    <div class="row">
+      <div class="column">
+        <img src="howtotrain1.jpg" alt="HTTYD1">
+        <h3> How to Train your Dragon 2</h3>
+        <p>
+          The Viking village of Berk is frequently attacked by dragons, which steal livestock and endanger the villagers. Hiccup,
+          the awkward 15-year-old son of the village chieftain, Stoick the Vast, is deemed too weak to fight the dragons. Instead,
+          he creates mechanical devices under his apprenticeship with Gobber, the village blacksmith, though Hiccup's inventions
+          often backfire. Hiccup uses a bolas launcher to shoot down a Night Fury, a rare and dangerous dragon, but cannot bring
+          himself to kill the creature and sets him free.
+        </p>
+      </div>
+      <div class="column">
+        <img src="howtotrain2.jpg" alt="HTTYD2">
+        <h3> How to Train your Dragon 2</h3>
+        <p>
+          Five years after the Viking villagers of Berk and the dragons made peace, they live together in harmony. Hiccup and
+          his dragon, Toothless the Night Fury, discover and map unexplored lands. Now 20 years old, he is being pressed by his
+          father, Stoick the Vast, to succeed him as chieftain, although Hiccup feels unsure he is ready.
+        </p>
+      </div>
+      <div class="column">
+        <img src="howtotrain3.jpg" alt="HTTYD3">
+        <h3> How to Train your Dragon 3</h3>
+        <p>
+          One year after becoming chieftain, Hiccup, his Night Fury Toothless, and their fellow dragon-riders continue to
+          rescue captured dragons to bring them to Berk and its bustling dragon-human utopia. Their efforts have resulted in the
+          island becoming overpopulated with dragons. In response, Hiccup desires to find the disguised, a safe haven for
+          dragons spoken of by his late father, Stoick. Meanwhile, a white female Fury dragon, held captive by warlords, is given
+          to infamous dragon hunter Grimmel the Grisly as bait for him to capture Toothless for the warlords' use as an alpha.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
